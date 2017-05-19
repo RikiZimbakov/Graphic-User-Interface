@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UIMainWorld
+comment0.text=\r\n\ Name\:\ (Risto\ Zimbakov)\r\n\ Teacher\:\ Mr.\ Hardman\r\n\ Assignment\ GUI\r\n\ Date\ Last\ Modified\:\ 5/19/2017\r\n
+comment1.params=
+comment1.target=UIMainWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ testActors()
+comment2.text=\r\n\ testActors\ adds\ a\ button,\ label,\ textbox,\ and\ Menu\ to\ world\ location\ of\ the\ \r\n\ users\ choosing.\r\n\ \r\n\ @param\ There\ are\ no\ Parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=4
