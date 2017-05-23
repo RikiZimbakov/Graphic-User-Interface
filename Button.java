@@ -67,8 +67,16 @@ public class Button extends Actor
         }
     }
 
+    /**
+     * clickedAction changes the uiMainWorld to a new world and also plays sound file.
+     * 
+     * @param There are no parameters
+     * @return Nothing is returned
+     */
     private void clickedAction()
     {
-
+        MyWorld newWorld = new MyWorld();
+        newWorld.started();
+        Greenfoot.setWorld( newWorld );
     }
 }
