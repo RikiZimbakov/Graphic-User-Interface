@@ -13,5 +13,5 @@ comment4.target=void\ handleMouseClicks()
 comment4.text=\r\n\ handleMouseClicks\ checks\ whether\ mouse\ has\ been\ pressed\ on\ button\ and\ if\ so\r\n\ changes\ the\ colour\ of\ the\ button\ to\ show\ ite\ been\ pressed\ and\ also\ after\ the\ user\r\n\ releases\ the\ button\ the\ colour\ goes\ back\ to\ the\ original\ colour.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
 comment5.params=
 comment5.target=void\ clickedAction()
-comment5.text=\r\n\ clickedAction\ changes\ the\ uiMainWorld\ to\ a\ new\ world\ and\ also\ plays\ sound\ file.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.text=\r\n\ clickedAction\ checks\ whether\ the\ user\ has\ clicked\ on\ each\ of\ the\ buttons\ and\r\n\ adds\ items\ accordingly.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
 numComments=6

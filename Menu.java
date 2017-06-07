@@ -87,9 +87,9 @@ public class Menu extends Actor
         {
             mi = Greenfoot.getMouseInfo();
             menuIndex =( (mi.getY() - menuItems.getY() + menuHeight / 2) - 1 ) / fontSize;
+            getWorld().removeObject(menuItems);
             menuCommands.execute(menuIndex, getWorld());
             visible =!(visible);
-            getWorld().removeObject(menuItems);
         }
 
     }

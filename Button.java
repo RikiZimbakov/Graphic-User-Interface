@@ -13,12 +13,14 @@ public class Button extends Actor
     private String secondImage;
     GreenfootImage text1;
     GreenfootImage text2;
+    private String text;
 
     public Button(int fs, String f, String s, String t)
     {
         fontSize = fs;
         firstImage = f;
         secondImage = s;
+        text = t;
 
         text1 = new GreenfootImage(t, fontSize, Color.WHITE, new Color(0,0,0,0) );
         text2 = new GreenfootImage(t, fontSize, Color.BLACK, new Color(0,0,0,0) );
@@ -68,15 +70,26 @@ public class Button extends Actor
     }
 
     /**
-     * clickedAction changes the uiMainWorld to a new world and also plays sound file.
+     * clickedAction checks whether the user has clicked on each of the buttons and
+     * adds items accordingly.
      * 
      * @param There are no parameters
      * @return Nothing is returned
      */
     private void clickedAction()
     {
-        MyWorld newWorld = new MyWorld();
-        newWorld.started();
-        Greenfoot.setWorld( newWorld );
+        UIMainWorld world = (UIMainWorld)getWorld();
+        if (text.equalsIgnoreCase("Timbits") )
+        {
+            world.addItem(new Timbit());
+        }
+        else if(text.equalsIgnoreCase("Donuts") )
+        {
+            world.addItem(new Doughnut());
+        }
+        else if(text.equalsIgnoreCase("Coffee") )
+        {
+            world.addItem(new Coffee());
+        }
     }
 }

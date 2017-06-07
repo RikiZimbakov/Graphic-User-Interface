@@ -20,25 +20,18 @@ public class FileCommands implements MenuCommands
      */
     public void execute(int idx, World w)
     {
+        UIMainWorld guiWorld = (UIMainWorld)w;
         if( idx == 0)
         {
-            System.out.println("Running New Command…");
+            guiWorld.salesScreen();
         }
         else if( idx == 1)
         {
-            System.out.println("Running Open Command…");
+            guiWorld.startScreen();
         }
         else if( idx == 2)
         {
-            System.out.println("Running Save Command…");
-        }
-        else if( idx == 3)
-        {
-            System.out.println("Running Close Command…");
-        }
-        else if( idx == 4)
-        {
-            System.out.println("Running Exit Command…");
+            guiWorld.thankYou();
         }
     }
 

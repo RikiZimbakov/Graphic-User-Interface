@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SalesItem
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SalesItem\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SalesItem()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SalesItem\r\n
+comment2.params=sp
+comment2.target=SalesItem(int)
+comment3.params=
+comment3.target=int\ getNumOfItem()
+comment3.text=\r\n\ getNumOfItem\ returns\ the\ value\ of\ the\ number\ of\ Items\r\n\ \r\n\ @return\ numOfItem\ is\ returned\ as\ integer\ \r\n\ @param\ There\ are\ No\ parameters\r\n
+comment4.params=
+comment4.target=double\ getFinalPrice()
+comment4.text=\r\n\ getFinalPrice\ returns\ the\ value\ of\ the\ final\ \r\n\ price\ of\ your\ items\ including\ taxes\r\n\ \r\n\ @return\ getFinalPrice\ is\ returned\ as\ double\r\n\ @param\ There\ are\ No\ parameters\r\n
+comment5.params=newPrice
+comment5.target=void\ setPrice(double)
+comment5.text=\r\n\ setPrice\ takes\ in\ a\ value\ and\ sets\ salsPrice\ equal\r\n\ to\ it\r\n\ \r\n\ @return\ Nothing\ is\ returned\ \r\n\ @param\ There\ is\ a\ double\ newPrice\ that\ will\ be\ set\ like\ its\ name\ suggests\r\n\ to\ a\ new\ price\r\n
+comment6.params=newNum
+comment6.target=void\ setNumber(int)
+comment6.text=\r\n\ setNumber\ takes\ in\ a\ value\ and\ sets\ numOfitem\ equal\r\n\ to\ it\r\n\ \r\n\ @return\ Nothing\ is\ returned\ \r\n\ @param\ There\ is\ a\ integer\ newNum\ that\ will\ be\ set\ to\ a\ ew\ Number\r\n
+numComments=7
